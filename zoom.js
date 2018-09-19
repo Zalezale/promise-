@@ -1,3 +1,10 @@
+/**
+ * 
+ * @param {*} obj  为dom元素
+ * @param {*} area  为拉动缩放的区域，一般为右下脚
+ * @param {*} fn     缩放结束之后触发的事件
+ * 
+ */
 function zoom(obj, area, fn) {
 	var mouseDownX, mouseDownY, flag = false;
 	obj.addEventListener('mousedown',function(e) {

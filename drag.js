@@ -1,3 +1,8 @@
+/**
+ * 
+ * @param {*} obj 被拖动的dom元素
+ * @param {*} area   可以触发拖动的区域
+ */
 function dragDom(obj, area) {
 	var mouseDownX, mouseDownY, initX, initY, flag = false;
 	obj.addEventListener('mousedown' , function(e) {
