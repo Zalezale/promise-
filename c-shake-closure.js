@@ -41,6 +41,10 @@ function cClosure(time=1000,fn){
       }
   }
 }
+
+
+
+
 let fn1 = cClosure(5000,test)
 setInterval(()=>{
     fn1(1)

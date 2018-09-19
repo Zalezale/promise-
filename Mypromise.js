@@ -19,6 +19,7 @@ class MyPromise {
             this.value = data, this.status = type, this[type] && this[type](data)
         }, 0);
     }
+    
     then(fn, fnErr) {
         return new MyPromise((suc, err) => {
             function deelFn(value) {
